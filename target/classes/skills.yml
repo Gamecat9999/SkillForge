@@ -1,0 +1,121 @@
+# SkillForge Skills Configuration
+
+skills:
+  mining:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      super-breaker:
+        unlock-level: 50
+        duration: 30
+        cooldown: 240
+      blast-mining:
+        unlock-level: 125
+        duration: 8
+        cooldown: 60
+    
+  woodcutting:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      tree-feller:
+        unlock-level: 100
+        duration: 30
+        cooldown: 240
+      leaf-blower:
+        unlock-level: 150
+        duration: 15
+        cooldown: 120
+        
+  excavation:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      giga-drill-breaker:
+        unlock-level: 50
+        duration: 30
+        cooldown: 240
+        
+  herbalism:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      green-terra:
+        unlock-level: 100
+        duration: 30
+        cooldown: 240
+        
+  archery:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      power-shot:
+        unlock-level: 75
+        duration: 10
+        cooldown: 120
+        
+  swords:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      serrated-strikes:
+        unlock-level: 50
+        duration: 4
+        cooldown: 240
+        
+  axes:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      skull-splitter:
+        unlock-level: 50
+        duration: 4
+        cooldown: 240
+        
+  unarmed:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      berserk:
+        unlock-level: 50
+        duration: 30
+        cooldown: 240
+        
+  taming:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      beast-lore:
+        unlock-level: 100
+        
+  fishing:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    
+  acrobatics:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    
+  repair:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0
+    abilities:
+      super-repair:
+        unlock-level: 125
+        
+  alchemy:
+    enabled: true
+    max-level: 1000
+    experience-multiplier: 1.0

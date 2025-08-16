@@ -1,0 +1,31 @@
+# SkillForge Configuration File
+# A comprehensive LitRPG plugin for Minecraft
+
+database:
+  type: sqlite # sqlite or mysql
+  host: localhost
+  port: 3306
+  database: skillforge
+  username: root
+  password: ""
+  
+general:
+  save-interval: 300 # seconds
+  max-level: 1000
+  experience-multiplier: 1.0
+  ability-cooldown-reduction: true
+  party-experience-share: true
+  party-max-distance: 75.0
+  
+messages:
+  prefix: "&6[&eSkillForge&6] &r"
+  level-up: "&a&l✦ &r&7You reached &e{skill} &7level &e{level}&7! &a&l✦"
+  ability-ready: "&a&l⚡ &r&7Your &e{ability} &7ability is ready! &a&l⚡"
+  ability-activated: "&6&l⚡ &r&e{ability} &6activated for {duration} seconds! &6&l⚡"
+  experience-gain: "&b+{exp} {skill} EXP"
+  
+sounds:
+  level-up: ENTITY_PLAYER_LEVELUP
+  ability-ready: BLOCK_NOTE_BLOCK_CHIME
+  ability-activated: ENTITY_ENDER_DRAGON_GROWL
+  experience-gain: ENTITY_EXPERIENCE_ORB_PICKUP

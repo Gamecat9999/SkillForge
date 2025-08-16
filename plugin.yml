@@ -1,0 +1,37 @@
+name: SkillForge
+version: 1.0.0
+main: com.skillforge.SkillForge
+api-version: 1.19
+author: SkillForge Team
+description: A comprehensive LitRPG plugin with skills, leveling, and abilities
+website: https://github.com/skillforge/SkillForge
+
+commands:
+  sf:
+    description: Main SkillForge command
+    aliases: [skillforge, skills]
+    usage: /sf <subcommand>
+  party:
+    description: Party management commands
+    usage: /party <subcommand>
+  leaderboard:
+    description: View skill leaderboards
+    aliases: [lb, top]
+    usage: /leaderboard [skill]
+  inspect:
+    description: Inspect another player's stats
+    usage: /inspect <player>
+
+permissions:
+  skillforge.admin:
+    description: Full access to SkillForge admin commands
+    default: op
+  skillforge.use:
+    description: Basic SkillForge usage
+    default: true
+  skillforge.party:
+    description: Can use party features
+    default: true
+  skillforge.inspect:
+    description: Can inspect other players
+    default: true

@@ -1,0 +1,27 @@
+name: SkillForge
+main: com.skillforge.SkillForge
+version: 1.0.0
+api-version: 1.19
+description: A comprehensive LitRPG plugin for Minecraft
+author: James
+
+commands:
+  sf:
+    description: Main SkillForge command
+    usage: /sf
+    permission: skillforge.use
+
+  inspect:
+    description: Inspect another player's skills
+    usage: /inspect <player>
+    permission: skillforge.inspect
+
+  leaderboard:
+    description: View top players by skill
+    usage: /leaderboard
+    permission: skillforge.leaderboard
+
+  party:
+    description: Manage your party
+    usage: /party <subcommand>
+    permission: skillforge.party
